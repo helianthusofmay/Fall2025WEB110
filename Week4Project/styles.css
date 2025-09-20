@@ -1,0 +1,34 @@
+/*Code CSS to do the following: Global styles for the document (use the body element selector) with background color (#F5EFE6) and text color (#4B3832) 
+/*Style for the header element selector that configure background color (#8B5E3B) and text color (#FFFFFF).
+Style for the nav element selector that configures a light brown background color (#D4A373).
+Style for the main element selector that configures a white background (#FFFFFF).
+Style for the footer element selector that configures background color (#8B5E3B) and text color (#FFFFFF).
+*/
+
+header {
+ background-color: #8B5E3B;
+ color: #FFFFFF;
+/*color refers to text-color*/
+}
+
+body {
+ background-color: #F5EFE6;
+ color: #4B3832;
+
+}
+
+/*Rework these using the element selector guide.*/
+
+nav {
+ background-color:#D4A373;
+}
+
+main{
+ background-color: #FFFFFF;
+}
+
+footer{
+ background-color: #8B5E3B;
+ color: #FFFFFF;
+ /*color refers to text-color*/
+}

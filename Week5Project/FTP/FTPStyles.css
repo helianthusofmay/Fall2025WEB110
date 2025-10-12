@@ -1,0 +1,13 @@
+/*Ryan Arnoldy 9/26/2025*/
+body {
+    /* CSS properties go here */
+    background-color:blue;
+    color: white;
+}
+/*
+
+CSS files require a different comment!
+
+Inside that CSS file, add:
+A comment at the top of the page with your name and the date
+A body{ } selector that changes the background color to blue and the text color to white.*/

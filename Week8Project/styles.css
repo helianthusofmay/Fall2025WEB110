@@ -1,0 +1,74 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+/**/
+main{
+ background-color: #FFFFFF;
+ width: 50%;
+ margin: auto;
+}
+
+body {
+ background-color: yellow;
+ font-family:sans-serif;
+ text-align: center;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 6px 10px rgba(0, 0, 0, 0.6);
+/*Create a box shadow with a horizontal offset of 6px, a vertical offset of 10px, 
+and the color as black with an opacity of .6
+(hint: box-shadow: 6px 10px rgba(0, 0, 0, 0.6);)*/
+}
+
+nav ul {
+ list-style: none;
+ padding: 10px;
+ background-color: #333;
+}
+
+
+nav ul li {
+ display: inline;
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-left: 15px;
+ margin-right: 15px;
+}
+
+nav a{
+ text-decoration: none;
+ color:white;
+ font-size: 18px;
+ letter-spacing: 3px;
+}
+
+nav a:hover {
+ text-decoration:underline;
+}
+
+nav a:visited {
+ color: purple;
+}
+
+.content p {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+}

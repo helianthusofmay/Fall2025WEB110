@@ -30,6 +30,7 @@
         }
     </style>*/
 
+/*Instructions from Canvas
    /* Liquid layout */
  /* Not full width of screen, centered
 Include #wrapper and margins
@@ -43,7 +44,7 @@ Style for the nav element selector that configures a light brown background colo
 Style for the main element selector that configures a white background (#FFFFFF).
 Style for the footer element selector that configures background color (#8B5E3B) and text color (#FFFFFF).
 
-ABOVE IS REFERENCE CODE FROM AA PREVIOUS ASSIGNMENT
+ABOVE IS REFERENCE CODE FROM A PREVIOUS ASSIGNMENT: Scroll down for actual code.
 */
 
 
@@ -64,6 +65,8 @@ body {
 
 nav {
  background-color:#D4A373;
+ text-align: center;
+ margin: 0 auto;
 }
 
 main{
@@ -119,6 +122,7 @@ body {
   padding: 1em; 
   background-color: #fff; 
   border: 1px solid #ccc; 
+  text-align: center;
 }
 
 /* 

@@ -1,0 +1,149 @@
+/*#wrapper {
+  Sets the maximum width of the wrapper
+  max-width: 960px; You can adjust this value 
+
+  Centers the wrapper horizontally by setting top/bottom margin to 0 and left/right to auto
+  margin: 0 auto;
+
+   You can add other styles here, like padding 
+  padding: 10px;*/
+
+/* <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.5;
+            padding: 0 16px;
+        }
+
+        article {
+            width: 66%;
+            float: left;
+        }
+
+        aside {
+            width: 33%;
+            float: right;
+        }
+
+        h1 {
+            margin-bottom: 0;
+        }
+    </style>*/
+
+   /* Liquid layout */
+ /* Not full width of screen, centered
+Include #wrapper and margins
+Size measurements are in % 
+Text measurements are in ems 
+Small measurements for padding, borders, and margins can be in px, but only if smaller than 10px ets the maximum width of the wrapper */
+
+z/*Code CSS to do the following: Global styles for the document (use the body element selector) with background color (#F5EFE6) and text color (#4B3832) 
+/*Style for the header element selector that configure background color (#8B5E3B) and text color (#FFFFFF).
+Style for the nav element selector that configures a light brown background color (#D4A373).
+Style for the main element selector that configures a white background (#FFFFFF).
+Style for the footer element selector that configures background color (#8B5E3B) and text color (#FFFFFF).
+
+ABOVE IS REFERENCE CODE FROM AA PREVIOUS ASSIGNMENT
+*/
+
+
+/*IMPORTANT NOTE: Be sure to do a reading of both the css style sheet and the html code in your spare time while you improve upon this work*/
+header {
+ background-color: #8B5E3B;
+ color: #FFFFFF;
+/*color refers to text-color*/
+}
+
+body {
+ background-color: #F5EFE6;
+ color: #4B3832;
+
+}
+
+/*Rework these using the element selector guide.*/
+
+nav {
+ background-color:#D4A373;
+}
+
+main{
+ background-color: #FFFFFF;
+ display: inline-block;
+ text-align: center;
+}
+
+footer{
+ background-color: #8B5E3B;
+ color: #FFFFFF;
+ max-width: 80%;
+ margin: 0 auto;
+ padding: 1em;
+ /*color refers to text-color*/
+}
+
+.footer {
+    margin-top: 20px; /* This is all review from last week from the previous assignment. */
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+}
+
+ol {
+ text-align: center;
+ display: inline-block;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+/* Basic reset for consistent rendering across browsers */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  text-align: center;
+  background-color: #f0f0f0; 
+  display: inline-block;
+}
+
+
+#wrapper {
+  max-width: 80%;
+  margin: 0 auto; 
+  padding: 1em; 
+  background-color: #fff; 
+  border: 1px solid #ccc; 
+}
+
+/* 
+Small measurements for padding, borders, and margins can be in px, but only if smaller than 10px 
+/*From the Canvas instruction module*/
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5; /* Good practice for readability */
+  margin-bottom: 1em;
+}
+
+.content-box {
+  padding: 8px; /* Small padding in pixels */
+  margin-bottom: 1.5em;
+  border: 1px solid #aaa; /* Small border in pixels */
+  background-color: #f9f9f9; /* Lighter background for nested content */
+}

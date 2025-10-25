@@ -142,8 +142,8 @@ p {
 }
 
 .content-box {
-  padding: 8px; /* Small padding in pixels */
+  padding: 8px; 
   margin-bottom: 1.5em;
-  border: 1px solid #aaa; /* Small border in pixels */
-  background-color: #f9f9f9; /* Lighter background for nested content */
+  border: 1px solid #aaa; 
+  background-color: #f9f9f9;
 }

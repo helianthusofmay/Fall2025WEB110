@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    text-align: center;
+}
+.wrapper {
+    max-width: 70%;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right:auto;
+    margin-bottom: auto;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    background-color: #333;
+    padding: 10px 0;
+}
+nav ul li {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:  15px;
+    margin-right:  15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+nav a:visited {
+    color: lightgray;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color:#e3e3e3;
+}
+
+.hero img {
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.hero-text{
+    text-align: left;
+    max-width: 70%;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.feature {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.feature img {
+    width: 40%;
+}
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+  /* CSS rules to apply when the screen width is 768px or less */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+}
+.hero img {
+    margin: 15px;
+    width: 250px;
+}
+.hero-text {
+    max-width: 100%;
+    text-align: center;
+}
+nav ul {
+    padding: 10px;
+    text-align: center;
+}
+nav ul li {
+    display: block;
+    margin: 10px 0;
+}
+} 
+
+
+@media screen and (max-width: 480px) {
+  /* CSS rules to apply when the screen width is 480px or less */
+  .wrapper {
+    padding: 10px;
+}
+
+.hero img{
+    width: 200px
+}
+.features {
+    grid-template-columns: 1fr;
+}
+
+nav ul {
+    padding: 5px;
+}
+nav ul li {
+    margin: 5px 0;
+    /*the first value is top and bottom margin, the second value is left and right margin*/
+}
+nav a {
+    font-size: 16px;
+} 
+}
